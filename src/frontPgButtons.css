@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Alata", "sans-serif";
+}
+
+.Screen {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+
+  vertical-align: middle;
+  background: #f6c396;
+}
+
+.FrontPageContainer {
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 270px;
+}
+
+.StoreButton {
+  position: relative;
+  width: 297px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  border: transparent;
+  background: url("./Assets/StoreShape.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.MarginMaker {
+  margin-top: 20%;
+}
+
+.MenuBarContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 62px;
+  background: #34bd81;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  top: 92.5%;
+}
+
+.MenuButton {
+  background: transparent;
+  cursor: pointer;
+  border: transparent;
+  padding-right: 38px;
+  padding-left: 38px;
+}
