@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import BasicExample from './example';
 
 
 function App() {
   return (
-    
-     <BtnGroup></BtnGroup>
+    <div className = "screen">
+      <BasicExample/>
+
+    </div>
+     
     
   );
 }

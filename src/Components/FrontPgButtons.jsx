@@ -10,7 +10,7 @@ class FrontPageButtons extends React.Component {
   render() {
     console.log("FrontPageButton - Clicked");
     return (
-      <div className="Screen " role="group">
+      <div>
         <button
           onClick={() => console.log("FrontPageButton - Clicked")}
           className="StoreButton"

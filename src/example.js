@@ -14,17 +14,10 @@ import Header from './Assets/Header.png';
 import Rubrik1 from './Assets/Rubrik1.png';
 import Rubrik2 from './Assets/Rubrik2.png';
 import FrontPage from "./Pages/frontPage";
+import InfoPage from "./Pages/infoPage";
 
 
-
-// This site has 3 pages, all of which are rendered
-// dynamically in the browser (not server rendered).
-//
-// Although the page does not ever refresh, notice how
-// React Router keeps the URL up to date as you navigate
-// through the site. This preserves the browser history,
-// making sure things like the back button and bookmarks
-// work properly.
+//Essentially the MenuBar component
 
 export default function BasicExample() {
   
@@ -34,13 +27,13 @@ export default function BasicExample() {
       
         <div className="MenuBarContainer" role="group">
         
-            <Link to="/InfoPage"><InfoButton></InfoButton></Link>
+            <Link to="/InfoPage"><InfoButton/></Link>
           
           
-            <Link to="/HomePage"><HomeButton></HomeButton></Link>
+            <Link to="/HomePage"><HomeButton/></Link>
           
           
-            <Link to="/FavouritesPage"><FavButton></FavButton></Link>
+            <Link to="/FavouritesPage"><FavButton/></Link>
           
             
          
@@ -57,8 +50,8 @@ export default function BasicExample() {
         */}
         
         <Routes>
-        <Route path='/InfoPage' element={"Info Page"} />
-          <Route path='/HomePage' element={"Home Page"} />
+        <Route path='/InfoPage' element={InfoPage} />
+          <Route path='/HomePage' element = {<FrontPage/>}/> 
           <Route path='/FavouritesPage' element={"Favourites"} />
         </Routes>
       </div>
@@ -68,27 +61,3 @@ export default function BasicExample() {
 
 // You can think of these components as "pages"
 // in your app.
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
-  );
-}

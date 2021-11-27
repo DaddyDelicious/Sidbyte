@@ -13,6 +13,15 @@ body {
   height: 812px;
 
   vertical-align: middle;
+}
+
+.pageScreen {
+  position: absolute;
+  width: 375px;
+  height: 750px;
+  bottom: 62px;
+
+  vertical-align: middle;
   background: #f6c396;
 }
 
