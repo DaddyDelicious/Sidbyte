@@ -1,0 +1,46 @@
+.Header2 {
+  position: absolute;
+  width: 375px;
+  height: 127px;
+  background: url("./Assets/HeaderTwo.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/* Rubrik comp */
+.HeaderRubrik {
+  position: absolute;
+  width: 127px;
+  height: 29px;
+  left: 124px;
+  top: 25px;
+}
+
+.HeaderRubrikFont {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+
+  color: #ffffff;
+}
+
+/* Pil vänster comp */
+.ArrowBack {
+  position: absolute;
+  width: 8px;
+  height: 22px;
+  left: 18px;
+  top: 40px;
+  background: url("./Assets/ArrowBack.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: transparent;
+}

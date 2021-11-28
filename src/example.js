@@ -15,6 +15,7 @@ import Rubrik1 from './Assets/Rubrik1.png';
 import Rubrik2 from './Assets/Rubrik2.png';
 import FrontPage from "./Pages/frontPage";
 import InfoPage from "./Pages/infoPage";
+import FavPage from "./Pages/favPage";
 
 
 //Essentially the MenuBar component
@@ -52,7 +53,7 @@ export default function BasicExample() {
         <Routes>
         <Route path='/InfoPage' element={InfoPage} />
           <Route path='/HomePage' element = {<FrontPage/>}/> 
-          <Route path='/FavouritesPage' element={"Favourites"} />
+          <Route path='/FavouritesPage' element={<FavPage/>} />
         </Routes>
       </div>
     </Router>

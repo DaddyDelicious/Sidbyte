@@ -3,26 +3,34 @@
   margin: 0;
 }
 
-body {
-  font-family: "Alata", "sans-serif";
-}
+.GreenText {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #338d5a;
+}
 .Screen {
   position: absolute;
   width: 375px;
   height: 812px;
-
-  vertical-align: middle;
 }
 
-.pageScreen {
+.FrontPageScreen {
   position: absolute;
   width: 375px;
-  height: 750px;
-  bottom: 62px;
-
-  vertical-align: middle;
+  min-height: 751px;
+  height: auto;
   background: #f6c396;
+  overflow: auto;
 }
 
 .FrontPageContainer {
@@ -44,16 +52,12 @@ body {
   background-position: center center;
 }
 
-.MarginMaker {
-  margin-top: 20%;
-}
-
 .MenuBarContainer {
   position: absolute;
   display: flex;
   align-items: center;
 
-  width: 100%;
+  width: 375px;
   height: 62px;
   background: #34bd81;
   border: 0.5px solid #000000;

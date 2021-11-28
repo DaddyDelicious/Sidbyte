@@ -1,0 +1,96 @@
+.Header {
+  position: absolute;
+  width: 375px;
+  height: 127px;
+  background: url("./Assets/HeaderTwo.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.FavPageScreen {
+  position: absolute;
+  width: 375px;
+  min-height: 751px;
+  height: auto;
+  background: #f6c396;
+  overflow: auto;
+}
+
+/* Rubrik comp */
+.HeaderRubrik {
+  position: absolute;
+  width: 127px;
+  height: 29px;
+  left: 124px;
+  top: 25px;
+}
+
+/* ICA Nära Strömmen */
+
+.StoreName {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+
+  color: #338d5a;
+}
+
+.HeaderRubrikFont {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+
+  color: #ffffff;
+}
+
+/* Pil vänster comp */
+.ArrowBack {
+  position: absolute;
+  width: 8px;
+  height: 22px;
+  left: 18px;
+  top: 40px;
+  background: url("./Assets/ArrowBack.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: transparent;
+}
+
+.ProductSpacer {
+  position: relative;
+  top: 200px;
+  left: 14px;
+  width: 353px;
+  height: 136px;
+  display: flex;
+  justify-content: space-evenly flex-start;
+  align-items: center;
+  background-color: gray;
+}
+
+.ProductHolder {
+  position: absolute;
+  top: 189px;
+  width: 353px;
+  height: auto;
+  min-height: 136px;
+  overflow: auto;
+
+  background-color: gray;
+}
