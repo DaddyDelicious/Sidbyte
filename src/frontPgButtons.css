@@ -20,6 +20,8 @@
 }
 .Screen {
   position: absolute;
+  left: 400px;
+  top: 200px;
   width: 375px;
   height: 812px;
 }

@@ -9,10 +9,6 @@ import {
 import InfoButton from "./Components/InfoButton";
 import HomeButton from "./Components/HomeButton";
 import FavButton from "./Components/FavButton";
-import FrontPageButtons from "./Components/FrontPgButtons";
-import Header from './Assets/Header.png';
-import Rubrik1 from './Assets/Rubrik1.png';
-import Rubrik2 from './Assets/Rubrik2.png';
 import FrontPage from "./Pages/frontPage";
 import InfoPage from "./Pages/infoPage";
 import FavPage from "./Pages/favPage";
